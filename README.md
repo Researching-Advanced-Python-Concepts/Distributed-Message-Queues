@@ -28,3 +28,14 @@
 - if we have multiple active subscribers listening on a channel, then all of them will receive the same message.
 - By default messages aren't persisted
 - [How to Use Redis with Python](https://realpython.com/python-redis/)
+
+## Apache Kafka: kafka-python3
+
+- Kafka is the most advanced and complicated of the 3 message brokers that we saw till now.
+- It's a distributed streaming platform used in real-time event-driven applications.
+- Its main selling point is the ability to handle large volumes of data with almost no performance lag.
+
+### Running Kafka
+
+- to run kafka, we'll need to set up a distributed cluster.
+- we can use Docker-compose to start a multi-container Docker application
